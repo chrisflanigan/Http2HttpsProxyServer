@@ -1,0 +1,9 @@
+---
+  Http2HttpsProxyServer:
+    http_server:
+      url: localhost
+      port: 8000
+    https_server:
+      key: '/opt/local/apache2/conf/server.key'
+      crt: '/opt/local/apache2/conf/server.crt'
+      port: 8001

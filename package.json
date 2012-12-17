@@ -1,0 +1,17 @@
+{
+  "name": "Http2HttpsProxyServer",
+  "description": "HTTP => HTTPS Proxy",
+  "version": "0.0.1",
+  "author": "Salesforce",
+  "contributors": [
+    { "name": "Chris Flanigan", "email": "cflanigan@salesforce.com" }
+  ],
+  "dependencies": {
+    "http-proxy" : "*",
+    "config" : "*",
+    "yaml" : "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
