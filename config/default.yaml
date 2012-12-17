@@ -4,6 +4,6 @@
       url: localhost
       port: 8000
     https_server:
-      key: '/opt/local/apache2/conf/server.key'
-      crt: '/opt/local/apache2/conf/server.crt'
+      key: '/path/to/server.key'
+      crt: '/path/to/server.crt'
       port: 8001
