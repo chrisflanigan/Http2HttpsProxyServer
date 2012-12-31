@@ -7,9 +7,11 @@ To run:
 
 1) copy config/default.yaml to local.yaml and change your hosts, paths, and ports etc
 
-2) Install node-js
+2) Install node
 
-3) in the project root directory, type:
+3) Install forever npm install -g forever
+
+4) in the project root directory, type:
 
 npm update
-export TYMPANIC_ENV=local && npm start
+export NODE_ENV=local && ./bin/start.sh
