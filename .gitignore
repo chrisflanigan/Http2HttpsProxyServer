@@ -1,4 +1,5 @@
-/nbproject/private/
+.settings
+.project
 /config/local.yaml
 /config/runtime.json
 /node_modules/
